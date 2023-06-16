@@ -9,9 +9,6 @@ int main(){
   if(it == v.end())  cout<< "Not found";
   else  cout<< " found";
 
-
-
-
-return 0;
+  return 0;
 
 }
