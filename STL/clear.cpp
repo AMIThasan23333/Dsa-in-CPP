@@ -6,15 +6,15 @@ int main(){
   cout<< v.max_size() << endl;
   cout<< v.capacity() << endl;
   v.push_back(10);
-  cout<< v.capacity() << endl;
+  
   v.push_back(10);
-  cout<< v.capacity() << endl;
   v.push_back(20);
-  cout<< v.capacity() << endl;
   v.push_back(2);
-  cout<< v.capacity() << endl;
   v.push_back(2);
-  cout<< v.capacity() << endl;
+  v.clear();
+  cout << v.size() << endl;
   return 0;
+
+  
 }
 
