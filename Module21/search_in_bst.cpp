@@ -53,7 +53,7 @@ Node *input_tree()
         p->left = myLeft;
         p->right = myRight;
 
-        // 3. children gulo ke push koro
+        // 3. children gulo ke push koroooooooo
         if (p->left)
             q.push(p->left);
         if (p->right)
